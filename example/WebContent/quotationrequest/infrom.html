@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>見積依頼入力</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link href="../bootstrap-4.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="../bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>
+<h1>見積依頼</h1>
+<h2>入力</h2>
+</header>
+<form action="/my-handling-form-page" method="post">
+  <div>
+    <label for="name">品目:</label>
+    <input type="text" id="name" name="user_name">
+  </div>
+  <div>
+    <label for="msg">目的:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </div>
+  <div>
+    <label for="name">単価:</label>
+    <input type="text" id="name" name="user_name">
+  </div>
+  <div>
+    <label for="name">数量:</label>
+    <input type="text" id="name" name="user_name">
+  </div>
+</form>
+<a class="btn btn-primary" href="confirm.html" role="button">確認画面へ</a>
+<a class="btn btn-primary" href="../hello.html" role="button">ホーム画面へ</a>
+</body>
+</html>
